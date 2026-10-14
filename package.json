@@ -1,6 +1,6 @@
 {
   "name": "shopify-app-changeguard",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Offline semantic review of Shopify app configuration changes, with risk findings for CI and pull requests.",
   "type": "module",
   "engines": {
@@ -66,7 +66,10 @@
     "dist/urls.js",
     "dist/webhooks.js",
     "dist/events.js",
-    "dist/generated-version.js"
+    "dist/markdown.js",
+    "dist/risk-policy.js",
+    "dist/generated-version.js",
+    "docs"
   ],
   "author": "Efe Gökdemir"
 }
